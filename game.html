@@ -1,0 +1,35 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Catch The Fly Game</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    
+    <body>
+
+        <header>
+            <div id="game-info">
+                <span id="level-info">Level: <span id="level">1</span></span>
+                <span id="heart-info">Hearts: <span id="hearts">3</span></span>
+                <span id="timer-info">Time left: <span id="timer">30</span> seconds</span>
+            </div>
+        </header>
+
+
+        <div class="kitchen">
+            <div id="fly" class="fly">
+                <img src="fly.png" alt="Active Fly" class="active-fly" style="max-width:100px;" />
+                <img src="crushed-fly.png" alt="Crushed Fly" class="crushed-fly"
+                    style="display: none;max-width:100px;" />
+                <div class="speech-bubble">Catch me if you can!</div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+    </html>
+
