@@ -134,4 +134,47 @@ body {
   .speech-bubble.show {
     display: block;
   }
+
+  @keyframes fallToGround {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(750px);
+    }
+  }
   
+  .crushed-fly {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    z-index: 1;
+  }
+  
+  @media screen and (max-width: 768px) {
+    header {
+      padding: 5px 0;
+    }
+  
+    #game-info {
+      font-size: 1em;
+    }
+  
+    .kitchen {
+      margin-top: 30px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    #game-info {
+      font-size: 0.8em;
+    }
+  
+    .kitchen {
+      margin-top: 20px;
+    }
+  }
+  
+
