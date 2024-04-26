@@ -8,6 +8,6 @@ The game consists of multiple levels that progressively become more challenging 
 The player's score and elapsed time are displayed on the screen to increase the challenge and enhance the gameplay experience.
 
 
-# url website:
+# Live website:
 
 https://mashael053.github.io/JS-Game-Project/
